@@ -1,0 +1,24 @@
+.introduction {
+
+  &__title {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: $dark-blue;
+    margin-top: 30px;
+  }
+
+  &__description {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #808080;
+    margin-top: 5px;
+    padding-bottom: 45px;
+  }
+
+}

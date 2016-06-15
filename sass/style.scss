@@ -1,0 +1,47 @@
+@import "normalize.scss";
+
+// подключение переменных
+@import "variables.scss";
+
+// подключение миксинов
+@import "mixins.scss";
+
+body {
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #808080;
+  text-transform: none;
+  min-width: 1000px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+
+
+// подключение всех стилей
+
+@import "blocks/btn.scss";
+@import "blocks/header.scss";
+@import "blocks/logo.scss";
+@import "blocks/menu.scss";
+@import "blocks/submenu.scss";
+@import "blocks/introduction.scss";
+@import "blocks/leadership.scss";
+@import "blocks/leaders.scss";
+@import "blocks/news-block.scss";
+@import "blocks/presentation.scss";
+@import "blocks/footer.scss";
+@import "blocks/footer-first.scss";
+@import "blocks/footer-second.scss";
+@import "blocks/promo.scss";
+@import "blocks/features.scss";
+@import "blocks/feature.scss";

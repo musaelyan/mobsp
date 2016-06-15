@@ -1,0 +1,57 @@
+.footer-second {
+  background: #3c3c3f;
+  padding: 20px 0;
+  font-size: 0;
+
+  &__company-about {
+    float: left;
+    width: 280px;
+  }
+
+  &__stores {
+    float: right;
+    width: 550px;
+    text-align: right;
+  }
+
+  &__store-link {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    img {
+      display: block;
+    }
+
+  }
+
+  &__copyright {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255,255,255,0.25);
+  }
+
+  &__link {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    &:hover {
+
+    }
+    &:active {
+
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+.leadership {
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+  margin-bottom: 43px;
+
+  &__title {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: $dark-blue;
+    margin-top: 30px;
+  }
+
+  &__description {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+  }
+
+}

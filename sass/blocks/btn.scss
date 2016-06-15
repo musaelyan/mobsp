@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  background: $blue;
+  color: white;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 9px 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+
+  &:hover {
+    background: $link-blue;
+  }
+
+  &:active {
+
+  }
+
+  &--trial {
+    float: right;
+
+  }
+
+}

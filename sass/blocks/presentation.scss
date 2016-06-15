@@ -1,0 +1,14 @@
+.presentation {
+  float:right;
+  width: 460px;
+
+  &__description {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #808080;
+    margin-top: 15px;
+  }
+}

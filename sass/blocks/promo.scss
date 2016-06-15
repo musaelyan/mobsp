@@ -1,0 +1,30 @@
+.promo {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 55px 0;
+
+  &__title {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: $dark-blue;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #808080;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+}
